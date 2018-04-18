@@ -1,0 +1,84 @@
+Total Requests handled:                    1000000
+Requests per second:                       20.111674
+Completely idle time:                      45866169.828302   	0.922445
+Response time average:                     3.856197
+Response time std.dev.:                    2.999541
+Response time maximum:                     29.871000
+Overlaps combined:                         0	0.000000
+Read overlaps combined:                    0	0.000000	0.000000
+Critical Reads:                            499294  	0.499294
+Critical Read Response time average:       5.158535
+Critical Read Response time std.dev.:      3.305205
+Critical Read Response time maximum:       24.260401
+Non-Critical Reads:                        0  	0.000000
+Non-Critical Read Response time average:   0.000000
+Non-Critical Read Response time std.dev.:  0.000000
+Non-Critical Read Response time maximum:   0
+Critical Writes:                           500706  	0.500706
+Critical Write Response time average:      2.557531
+Critical Write Response time std.dev.:     1.922943
+Critical Write Response time maximum:      29.871000
+Non-Critical Writes:                       0  	0.000000
+Non-Critical Write Response time average:  0.000000
+Non-Critical Write Response time std.dev.: 0.000000
+Non-Critical Write Response time maximum:  0
+Number of reads:                           499294  	0.499294
+Number of writes:                          500706  	0.500706
+Sequential reads:                          249667  	0.500040  	0.249667
+Sequential writes:                         250601  	0.500495  	0.250601
+Base SPTF/SDF Different:                   0 /      0 	0.000000
+Timeout SPTF/SDF Different:                0 /      0 	0.000000
+Priority SPTF/SDF Different:               0 /      0 	0.000000
+runlistlen:                                3856196.593301
+runoutstanding:                            0.000000
+simtime:                                   49722366.421603
+warmuptime:                                0.000000
+setsize:                                   1
+Average # requests:                        0.077555
+Maximum # requests:                        1
+End # requests:                            0
+Average queue length:                      0.077555
+Maximum queue length:                      1
+End queued requests:                       0
+Queue time average:                        3.856197
+Queue time std.dev.:                       2.999541
+Queue time maximum:                        29.871000
+Avg # read requests:                       0.051800
+Max # read requests:                       1
+Avg # write requests:                      0.025754
+Max # write requests:                      1
+Physical access time average:              0.000000
+Physical access time std.dev.:             0.000000
+Physical access time maximum:              0
+Number of batches:                         0
+Batch size average:                        0.000000
+Batch size std.dev.:                       0.000000
+Batch size maximum:                        0
+Inter-arrival time average:                49.722362
+Inter-arrival time std.dev.:               65.478570
+Inter-arrival time maximum:                509.936430
+Read inter-arrival average:                99.583251
+Read inter-arrival std.dev.:               151.085082
+Read inter-arrival maximum:                3050.705827
+Write inter-arrival average:               99.304507
+Write inter-arrival std.dev.:              153.528246
+Write inter-arrival maximum:               2958.458386
+Number of idle periods:                    1000001
+Idle period length average:                45.866124
+Idle period length std.dev.:               65.411876
+Idle period length maximum:                508.955430
+Request size average:                      20.300048
+Request size std.dev.:                     15.824023
+Request size maximum:                      296
+Read request size average:                 20.260928
+Read request size std.dev.:                15.805693
+Read request size maximum:                 184
+Write request size average:                20.339057
+Write request size std.dev.:               15.842184
+Write request size maximum:                296
+Instantaneous queue length average:        1.000000
+Instantaneous queue length std.dev.:       0.000000
+Instantaneous queue length maximum:        1
+Sub-optimal mapping penalty average:       0.000000
+Sub-optimal mapping penalty std.dev.:      0.000000
+Sub-optimal mapping penalty maximum:       0
