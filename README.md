@@ -12,7 +12,7 @@ Currently (as of 18 April 2018), this repository contains three categories of in
 
 The naming convention for parameter files and output files is detailed in tables that may be found inside the Excel file, on the individual sheet named "Tables". The fundamentals are as follows:
 
-There are three classes of testing: A, B, and C. A is a single SSD. B represents a Raid 3 configuration. C is a Raid 5 configuration of 3 disks, one of which is only a parity disk.
+There are three classes of testing: A, B, and C. A is a single SSD. B represents a RAID 3 configuration. C is a RAID 5 configuration of 3 disks, one of which is only a parity disk.
 
 There are five differing workloads: balanced r/w with a 50% chance of sequentialization, sequential read, sequential write, random read, and random write. These are numbered 1 through 5, respectively. All workloads (with the exception of the balanced load) follow a 70/30 rule. For example, the random read load has a 70% chance of the IO request being a random read; otherwise, the IO request follow a balanced yet random pattern.
 
