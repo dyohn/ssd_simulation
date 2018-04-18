@@ -16,5 +16,7 @@ There are three classes of testing: A, B, and C. A is a single SSD. B represents
 
 There are five differing workloads: balanced r/w with a 50% chance of sequentialization, sequential read, sequential write, random read, and random write. These are numbered 1 through 5, respectively. All workloads (with the exception of the balanced load) follow a 70/30 rule. For example, the random read load has a 70% chance of the IO request being a random read; otherwise, the IO request follow a balanced yet random pattern.
 
+A quick side note: project testing was done in two rounds. In Round 1, for all workloads and configurations we assigned a 15% chance that the generated IO request would be time-critical. In Round 2, this chance was changed to 100% for all configurations and workloads. 100% is the default value for RAID configurations. A time-critical IO request is a request which must be completed before the next request can begin to be serviced. This effectively serializes IO on a FIFO basis.
+
 If/when additional information is added to this repository, the README will be updated accordingly in edits that will appear below this point.
 
